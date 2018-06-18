@@ -26,6 +26,7 @@ table.job-listing td:last-child {
 
 label {
     margin-right: 15px;
+    width: 100px;
 }
 
 ul.form-group {
@@ -37,3 +38,24 @@ ul.form-group li {
     display: inline-block;
     padding-right: 15px;
 }
+
+input.name {
+    border: 1px solid #9fdaf9;
+    padding: 5px;
+    border-radius: 5px;
+    width: 320px;
+    border-color: #9fdaf9;
+}
+
+select {
+    border: 1px solid #9fdaf9;
+    padding: 5px;
+    border-radius: 5px;
+    width: 320px;
+    border-color: #9fdaf9;
+}
+
+.error {
+    display: block;
+    color: red;
+ }
